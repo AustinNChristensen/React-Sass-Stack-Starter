@@ -1,0 +1,26 @@
+{
+  "name": "react-sass-stack-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-compile": "node-sass src/Styles/sass/main.scss src/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinNChristensen/React-Sass-Stack-Starter.git"
+  },
+  "author": "Austin Christensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinNChristensen/React-Sass-Stack-Starter/issues"
+  },
+  "homepage": "https://github.com/AustinNChristensen/React-Sass-Stack-Starter#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "react": "^16.8.6"
+  }
+}
